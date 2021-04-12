@@ -18,11 +18,11 @@ contract ICO is Ownable {
     // Use SafeMath for uint256 and SafeERC20 for IERC20
     using SafeMath for uint256;
 
-    // Address For BaseToken. e.x: SXP
+    // Address For BaseToken.
     address private _baseToken;
-    // Address For SaleToken. e.x: STRK
+    // Address For SaleToken.
     address private _saleToken;
-    // Rate STRK To SXP
+    // Rate BaseToken to SaleToken
     uint256 private _saleRate;
     // Is Sale, Only set with owner
     bool private _isSale;
