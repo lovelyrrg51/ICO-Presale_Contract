@@ -1,7 +1,7 @@
 {
-  "name": "Swipe-IWO",
+  "name": "ICO-Presale",
   "version": "1.0.0",
-  "description": "Swipe IWO",
+  "description": "ICO-Presale",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
